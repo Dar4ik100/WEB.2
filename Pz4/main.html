@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Практична робота 4: Робота з DOM та подіями</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    #taskInput {
+      padding: 8px;
+      width: 250px;
+    }
+
+    #addTask {
+      padding: 8px 12px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    li {
+      padding: 5px;
+      cursor: pointer;
+    }
+
+    li:hover {
+      background-color: #f0f0f0;
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+  <h1>Практична робота №4: Робота з DOM та подіями</h1>
+
+  <div>
+    <input type="text" id="taskInput" placeholder="Введіть завдання" />
+    <button id="addTask">Додати завдання</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
